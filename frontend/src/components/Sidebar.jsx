@@ -37,7 +37,7 @@ const Sidebar = () => {
         >
           <UsersIcon className="size-5 text-base-content opacity-70" />
           <span>Friends</span>
-        </Link> */}
+        </Link> */} 
 
         <Link
           to="/notifications"
