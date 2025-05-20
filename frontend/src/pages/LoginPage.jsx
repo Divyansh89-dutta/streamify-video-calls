@@ -40,7 +40,7 @@ const LoginPage = () => {
           <div className="mb-4 flex items-center justify-start gap-2">
             <ShipWheelIcon className="size-9 text-primary" />
             <span className="text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary  tracking-wider">
-              NexCast
+              Streamify
             </span>
           </div>
 
@@ -68,7 +68,7 @@ const LoginPage = () => {
                     </label>
                     <input
                       type="email"
-                      placeholder="Your email address"
+                      placeholder="hello@example.com"
                       className="input input-bordered w-full"
                       value={loginData.email}
                       onChange={(e) => setLoginData({ ...loginData, email: e.target.value })}
@@ -124,9 +124,9 @@ const LoginPage = () => {
             </div>
 
             <div className="text-center space-y-3 mt-6">
-              <h2 className="text-xl font-semibold">Connect with worldwide</h2>
+              <h2 className="text-xl font-semibold">Connect with language partners worldwide</h2>
               <p className="opacity-70">
-                Chat, connect, and make new friends — all in one place.
+                Practice conversations, make friends, and improve your language skills together
               </p>
             </div>
           </div>
